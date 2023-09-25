@@ -1,8 +1,11 @@
+import Banner from "../../Components/Header&Navbar/Banner";
+import Cards from "../../Components/Header&Navbar/Cards/Cards";
 
 const Home = () => {
     return (
         <div>
-            <h2>Home</h2>
+            <Banner></Banner>
+            <Cards></Cards>
         </div>
     );
 };
