@@ -4,9 +4,9 @@ import Logo from "./Logo";
 const NavBar = () => {
     return (
         <div>
-            <nav className="flex justify-between items-center py-5  ">
+            <nav className="flex justify-between items-center py-5 flex-col md:flex-row lg:flex-row ">
                 <Logo></Logo>
-                <ul className="flex gap-5">
+                <ul className="flex gap-5 flex-col md:flex-row lg:flex-row">
                     <li>
                         <NavLink
                             to="/"

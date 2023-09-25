@@ -5,7 +5,7 @@ import Banner from "../Components/Header&Navbar/Banner";
 const MainLayout = () => {
     return (
         <div >
-            <div className=" max-w-[1400px] mx-auto">
+            <div className=" max-w-[1500px] mx-auto">
                 
                 <NavBar></NavBar>
                 <Outlet></Outlet>
