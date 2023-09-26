@@ -2,12 +2,17 @@
     {
         "id": 1,
         "title": "Health",
-        "description": "Clean water for children",
+        "description": "Clean Coca-Cola for children",
         "color": "#0052ff26",
         "img": "https://i.ibb.co/h742SKP/Health.png",
+        "donation_img": "https://i.ibb.co/h742SKP/Health.png",
         "title_color": "#0052FF",
         "title_bg": "#0052ff33",
-        "description_color": "#0052FF"
+        "description_color": "#0052FF",
+        "price": 230,
+        "donation_title": "Support Clean Water",
+        "donation_description": "Ensuring access to clean water is essential for the health and well-being of children and communities. Your donation will make a significant impact by providing clean and safe drinking water to those in need.",
+        "donation_btn_bg": "#0052FF"
     },
     {
         "id": 2,
@@ -17,7 +22,12 @@
         "img": "https://i.ibb.co/JQZvb09/Education.png",
         "title_color": "#FF444A",
         "title_bg": "#ff444a33",
-        "description_color": "#FF444A"
+        "description_color": "#FF444A",
+        "donation_img": "https://i.ibb.co/c1DhtyD/Rectangle-4288.png",
+        "price": 240,
+        "donation_title": "Support Quality Education",
+        "donation_description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "donation_btn_bg": "#FF444A"
     },
     {
         "id": 3,
@@ -25,9 +35,14 @@
         "description": "Used Clothing Drive",
         "color": "#79c23f26",
         "img": "https://i.ibb.co/pPgkWzd/Clothing.png",
+        "donation_img": "https://i.ibb.co/pPgkWzd/Clothing.png",
         "title_color": "#79C23F",
         "title_bg": "#0cc2a333",
-        "description_color": "#79C23F"
+        "description_color": "#79C23F",
+        "price": 235,
+        "donation_title": "Support Clothing Drive",
+        "donation_description": "Donating used clothing is a simple yet impactful way to make a difference in the lives of those less fortunate. Your contribution to our clothing drive will provide warmth and comfort to individuals in need.",
+        "donation_btn_bg": "#79C23F"
     },
     {
         "id": 4,
@@ -35,9 +50,14 @@
         "description": "Better Food for Everyone",
         "color": "#f8714726",
         "img": "https://i.ibb.co/JQLVGHv/Food.png",
+        "donation_img": "https://i.ibb.co/JQLVGHv/Food.png",
         "title_color": "#F87147",
         "title_bg": "#f8714733",
-        "description_color": "#F87147"
+        "description_color": "#F87147",
+        "price": 238,
+        "donation_title": "Support Access to Nutritious Food",
+        "donation_description": "Access to nutritious food is a basic human right. Your donation will help us in our mission to ensure that everyone, regardless of their circumstances, has access to nourishing meals that promote good health and well-being.",
+        "donation_btn_bg": "#79C23F"
     },
     {
         "id": 5,
@@ -45,9 +65,14 @@
         "description": "Better Food for Everyone",
         "color": "#f8714726",
         "img": "https://i.ibb.co/JQLVGHv/Food.png",
+        "donation_img": "https://i.ibb.co/JQLVGHv/Food.png",
         "title_color": "#F87147",
         "title_bg": "#f8714733",
-        "description_color": "#F87147"
+        "description_color": "#F87147",
+        "price": 233,
+        "donation_title": "Support Access to Nutritious Food",
+        "donation_description": "Access to nutritious food is a basic human right. Your donation will help us in our mission to ensure that everyone, regardless of their circumstances, has access to nourishing meals that promote good health and well-being.",
+        "donation_btn_bg": "#79C23F"
     },
     {
         "id": 6,
@@ -55,9 +80,14 @@
         "description": "Used Clothing Drive",
         "color": "#79c23f26",
         "img": "https://i.ibb.co/pPgkWzd/Clothing.png",
+        "donation_img": "https://i.ibb.co/pPgkWzd/Clothing.png",
         "title_color": "#79C23F",
         "title_bg": "#0cc2a333",
-        "description_color": "#79C23F"
+        "description_color": "#79C23F",
+        "price": 236,
+        "donation_title": "Support Clothing Drive",
+        "donation_description": "Donating used clothing is a simple yet impactful way to make a difference in the lives of those less fortunate. Your contribution to our clothing drive will provide warmth and comfort to individuals in need.",
+        "donation_btn_bg": "#79C23F"
     },
     {
         "id": 7,
@@ -65,9 +95,14 @@
         "description": "Good Education",
         "color": "#ff444a26",
         "img": "https://i.ibb.co/JQZvb09/Education.png",
+        "donation_img": "https://i.ibb.co/c1DhtyD/Rectangle-4288.png",
         "title_color": "#FF444A",
         "title_bg": "#ff444a33",
-        "description_color": "#FF444A"
+        "description_color": "#FF444A",
+        "price": 241,
+        "donation_title": "Support Quality Education",
+        "donation_description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "donation_btn_bg": "#FF444A"
     },
     {
         "id": 8,
@@ -75,9 +110,14 @@
         "description": "Clean water for children",
         "color": "#0052ff26",
         "img": "https://i.ibb.co/h742SKP/Health.png",
+        "donation_img": "https://i.ibb.co/h742SKP/Health.png",
         "title_color": "#0052FF",
         "title_bg": "#0052ff33",
-        "description_color": "#0052FF"
+        "description_color": "#0052FF",
+        "price": 234,
+        "donation_title": "Support Clean Water",
+        "donation_description": "Ensuring access to clean water is essential for the health and well-being of children and communities. Your donation will make a significant impact by providing clean and safe drinking water to those in need.",
+        "donation_btn_bg": "#0052FF"
     },
     {
         "id": 9,
@@ -85,9 +125,14 @@
         "description": "Clean water for children",
         "color": "#0052ff26",
         "img": "https://i.ibb.co/h742SKP/Health.png",
+        "donation_img": "https://i.ibb.co/h742SKP/Health.png",
         "title_color": "#0052FF",
         "title_bg": "#0052ff33",
-        "description_color": "#0052FF"
+        "description_color": "#0052FF",
+        "price": 237,
+        "donation_title": "Support Clean Water",
+        "donation_description": "Ensuring access to clean water is essential for the health and well-being of children and communities. Your donation will make a significant impact by providing clean and safe drinking water to those in need.",
+        "donation_btn_bg": "#0052FF"
     },
     {
         "id": 10,
@@ -95,9 +140,14 @@
         "description": "Good Education",
         "color": "#ff444a26",
         "img": "https://i.ibb.co/JQZvb09/Education.png",
+        "donation_img": "https://i.ibb.co/c1DhtyD/Rectangle-4288.png",
         "title_color": "#FF444A",
         "title_bg": "#ff444a33",
-        "description_color": "#FF444A"
+        "description_color": "#FF444A",
+        "price": 239,
+        "donation_title": "Support Quality Education",
+        "donation_description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "donation_btn_bg": "#FF444A"
     },
     {
         "id": 11,
@@ -105,9 +155,14 @@
         "description": "Used Clothing Drive",
         "color": "#79c23f26",
         "img": "https://i.ibb.co/pPgkWzd/Clothing.png",
+        "donation_img": "https://i.ibb.co/pPgkWzd/Clothing.png",
         "title_color": "#79C23F",
         "title_bg": "#0cc2a333",
-        "description_color": "#79C23F"
+        "description_color": "#79C23F",
+        "price": 242,
+        "donation_title": "Support Clothing Drive",
+        "donation_description": "Donating used clothing is a simple yet impactful way to make a difference in the lives of those less fortunate. Your contribution to our clothing drive will provide warmth and comfort to individuals in need.",
+        "donation_btn_bg": "#79C23F"
     },
     {
         "id": 12,
@@ -115,8 +170,13 @@
         "description": "Better Food for Everyone",
         "color": "#f8714726",
         "img": "https://i.ibb.co/JQLVGHv/Food.png",
+        "donation_img": "https://i.ibb.co/JQLVGHv/Food.png",
         "title_color": "#F87147",
         "title_bg": "#f8714733",
-        "description_color": "#F87147"
+        "description_color": "#F87147",
+        "price": 231,
+        "donation_title": "Support Access to Nutritious Food",
+        "donation_description": "Access to nutritious food is a basic human right. Your donation will help us in our mission to ensure that everyone, regardless of their circumstances, has access to nourishing meals that promote good health and well-being.",
+        "donation_btn_bg": "#79C23F"
     }
 ]
