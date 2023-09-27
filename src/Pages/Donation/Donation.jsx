@@ -41,7 +41,6 @@ const Donation = () => {
                     }
 
                 </div>
-
                 {/* {donations.length > 0 && <button onClick={handleRemove} className="px-3 py-4 rounded-lg block mx-auto bg-slate-200 mt-10">Delete from the storage</button>} */}
 
                 <div className={isShow === donations.length ? 'hidden' : ''}>
