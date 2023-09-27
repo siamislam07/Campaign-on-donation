@@ -57,7 +57,7 @@
         "price": 238,
         "donation_title": "Support Access to Nutritious Food",
         "donation_description": "Access to nutritious food is a basic human right. Your donation will help us in our mission to ensure that everyone, regardless of their circumstances, has access to nourishing meals that promote good health and well-being.",
-        "donation_btn_bg": "#79C23F"
+        "donation_btn_bg": "#F87147"
     },
     {
         "id": 5,
@@ -72,7 +72,7 @@
         "price": 233,
         "donation_title": "Support Access to Nutritious Food",
         "donation_description": "Access to nutritious food is a basic human right. Your donation will help us in our mission to ensure that everyone, regardless of their circumstances, has access to nourishing meals that promote good health and well-being.",
-        "donation_btn_bg": "#79C23F"
+        "donation_btn_bg": "#F87147"
     },
     {
         "id": 6,
@@ -177,6 +177,6 @@
         "price": 231,
         "donation_title": "Support Access to Nutritious Food",
         "donation_description": "Access to nutritious food is a basic human right. Your donation will help us in our mission to ensure that everyone, regardless of their circumstances, has access to nourishing meals that promote good health and well-being.",
-        "donation_btn_bg": "#79C23F"
+        "donation_btn_bg": "#F87147"
     }
 ]
