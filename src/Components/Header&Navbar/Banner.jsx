@@ -1,5 +1,16 @@
+/* eslint-disable react/prop-types */
 
-const Banner = () => {
+import { useState } from "react";
+
+const Banner = ({ cards }) => {
+
+    const [search, setSearch] = useState('')
+    const [filteredCards, setFilteredCards] = useState([])
+
+    const handleSearch = () => {
+        const filtered = cards.filter(card => cards.title.toLowerCase().includes(search.toLowerCase()))
+        setFilteredCards(filtered)
+    }
     return (
         <div>
             <div className=" relative  mb-16" >
@@ -10,8 +21,8 @@ const Banner = () => {
                     <h1 className="text-5xl font-bold text-[#0B0B0B] ">I Grow By Helping People In Need</h1>
                     <div className="form-control">
                         <div className="input-group  justify-center mt-11">
-                            <input type="text" placeholder="Search…" className="input input-bordered pr-32" />
-                            <button onClick={()=>console.log('hello')} className="btn btn-square px-8 bg-[#FF444A] text-white normal-case text-base">
+                            <input type="text" placeholder="Search…" className="input input-bordered pr-32" value={search} onChange={(e) => setSearch(e.target.value)} />
+                            <button onClick={handleSearch} className="btn btn-square px-8 bg-[#FF444A] text-white normal-case text-base">
                                 Search
                             </button>
                         </div>
