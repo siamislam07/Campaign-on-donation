@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-import DonationDetailCard from "../DonationDetails/DonationDetailCard";
-import DonationCard from "../../Components/Header&Navbar/Cards/DonationCard";
 import DonationCmpltCard from "./DonationCmpltCard";
 
 const Donation = () => {

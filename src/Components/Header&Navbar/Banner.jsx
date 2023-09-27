@@ -2,14 +2,20 @@
 
 import { useState } from "react";
 
-const Banner = ({ cards }) => {
+const Banner = ({ cards, setFilteredCards }) => {
 
     const [search, setSearch] = useState('')
-    const [filteredCards, setFilteredCards] = useState([])
 
     const handleSearch = () => {
-        const filtered = cards.filter(card => cards.title.toLowerCase().includes(search.toLowerCase()))
+        const filtered = cards.filter((card) => card.title.toLowerCase().includes(search.toLowerCase()))
         setFilteredCards(filtered)
+    }
+
+    const handleInput = (e) => {
+        setSearch(e.target.value);
+        if (!e.target.value) {
+            setFilteredCards(cards)
+        }
     }
     return (
         <div>
@@ -21,7 +27,7 @@ const Banner = ({ cards }) => {
                     <h1 className="text-5xl font-bold text-[#0B0B0B] ">I Grow By Helping People In Need</h1>
                     <div className="form-control">
                         <div className="input-group  justify-center mt-11">
-                            <input type="text" placeholder="Search…" className="input input-bordered pr-32" value={search} onChange={(e) => setSearch(e.target.value)} />
+                            <input type="text" placeholder="Search…" className="input input-bordered pr-32" value={search} onChange={handleInput} />
                             <button onClick={handleSearch} className="btn btn-square px-8 bg-[#FF444A] text-white normal-case text-base">
                                 Search
                             </button>

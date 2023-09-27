@@ -1,10 +1,8 @@
 /* eslint-disable react/prop-types */
 
 import DonationCard from "./DonationCard";
-import Card from "./DonationCard"
 
 const Cards = ({cards}) => {
-    // console.log(cards);
     return (
         <div className="mb-8">
             

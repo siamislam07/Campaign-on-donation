@@ -1,44 +1,43 @@
-import ApexCharts from 'apexcharts'
-import { useLoaderData } from 'react-router-dom';
 
-import { CartesianGrid, Legend, Line, LineChart, Pie, PieChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+
+import { CartesianGrid, Cell, Legend, Line, LineChart, Pie, PieChart, ResponsiveContainer, Tooltip, XAxis,  } from "recharts";
 
 const Statistics = () => {
 
-    const data = useLoaderData()
-    console.log(data);
 
-   
+    const store = JSON.parse(localStorage.getItem('donations')) || [];
+    console.log(store);
     
+    const data = store.map(item =>({
+        name: 12,
+        value: store.length
+    }))
+    
+    const COLORS = ['red', 'green', ];
 
-    const myData = [
-        { name: "Group A", value: 500, fill: "red", startAngle: 0, endAngle: 180},
-        { name: "Group B", value: 600, fill: "green", startAngle: 180, endAngle: 360},
-
-    ];
 
     return (
         <div >
 
-
             <div className="flex justify-center mx-auto">
-                
-                <div className='mb-10'>
-                    <PieChart width={800} height={800}>
-                        <Pie
-                            dataKey="value"
-                            isAnimationActive={true}
-                            data={myData}
-                            outerRadius={300}
-                            fill={data.fill}
-                            
-                            label
-                        />
 
-                        {/* Display the tooltips */}
-                        <Tooltip />
-                    </PieChart>
-                </div>
+                <PieChart width={800} height={400}>
+                    <Pie
+                        data={data}
+                        cx="50%"
+                        cy="50%"
+                        labelLine={false}
+                        outerRadius={80}
+                        fill="#8884d8"
+                        dataKey="value"
+                        Tooltip='%'
+                    >
+                        {data.map((entry, index) => (
+                            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                        ))}
+                    </Pie>
+                </PieChart>
+
             </div>
 
             <div className='flex gap-7  justify-center'>

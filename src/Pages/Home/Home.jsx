@@ -1,15 +1,17 @@
 import { useLoaderData } from "react-router-dom";
 import Banner from "../../Components/Header&Navbar/Banner";
 import Cards from "../../Components/Header&Navbar/Cards/DonationCards";
+import { useState } from "react";
 
 const Home = () => {
-    const cards = useLoaderData()
+    const allCards = useLoaderData()
+    const [filteredCards, setFilteredCards] = useState(allCards)
 
 
     return (
         <div>
-            <Banner></Banner>
-            <Cards cards={cards}></Cards> 
+            <Banner cards={allCards} setFilteredCards={setFilteredCards}></Banner>
+            <Cards cards={filteredCards}></Cards> 
         </div>
     );
 };
